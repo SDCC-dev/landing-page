@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: 'Roboto';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem 0;
+    background-color: #1F2937;
+    color: white;
+}
+nav ol{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+nav a{
+    text-decoration: none;
+    color: #E5E7EB;
+}
+.hero{
+    height: 490px;
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    padding: 7rem 22rem;
+    gap: 5%;
+}
+.login{
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.login h1{
+    width: 55%;
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+.login p{
+    font-size: 24px;
+    color: #E5E7EB;
+}
+.login button{
+    width: 26%;
+    background-color: #3882F6;
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    padding: .5rem 1rem;
+    border: none;
+    border-radius: 0.5rem;
+    margin: .5rem 0rem;
+}
+.logo{
+    display: flex;
+    width: 55%;
+    height: 100%;
+}
+.logo img{
+    width: 100%;
+}
+main h2{
+    text-align: center;
+    padding: 2rem;
+    font-size: 36px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    padding-bottom: 5rem;
+}
+.cards div{
+    width: 150px;
+    text-align:center;
+}
+.cards img{
+    width: 100%;
+    border: 2px solid #3882F6;
+    border-radius: 1rem;
+}
+.cards p{
+    color: #1F2937;
+}
+.info{
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    color: #1F2937;
+    padding: 7rem 35.5rem;
+    text-align:start;
+}
+.info strong{
+    float: right;
+}
+.call-action{
+    display: flex;
+    justify-content: center;
+    padding: 7rem 22rem;
+}
+.call-info{
+    width: 100%;
+    padding: 2rem 13rem;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: .3rem;
+}
+.call{
+    display: flex;
+    flex-direction: column;
+}
+.call p{
+    color: #E5E7EB;
+}
+.call-info button{
+    width: 20%;
+    background-color: #3882F6;
+    color: white;
+    border: 1px solid white;
+    border-radius: .5rem;
+    padding: .5rem 1rem;
+    font-size: 18px;
+    font-weight: 500;
+}
+footer{
+    font-size: 18px;
+    background-color: #1F2937;
+    text-align: center;
+    color: #E5E7EB;
+}
+footer p{
+    padding: 2rem;
+}
